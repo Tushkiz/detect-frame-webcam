@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>TensorFlow.js Hello World</h1>
-
-    <p id="status">Awaiting TF.js load</p>
+    <div id="main">
+      <div class="container">
+        <div class="canvas-wrapper">
+          <canvas id="output"></canvas>
+          <video
+            id="video"
+            playsinline
+            style="
+              -webkit-transform: scaleX(-1);
+              transform: scaleX(-1);
+              visibility: hidden;
+              width: auto;
+              height: auto;
+            "
+          ></video>
+        </div>
+        <div class="status"></div>
+      </div>
+    </div>
 
     <!-- Import the page's JavaScript to do some stuff -->
     <script type="module" src="script.js"></script>

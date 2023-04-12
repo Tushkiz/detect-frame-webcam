@@ -1,5 +1,5 @@
 {
-  "name": "tensorflowjs-boilerplate",
+  "name": "tensorflowjs-pose-detection-webcam",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^4.2.0"
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow/tfjs": "^4.4.0"
   }
 }
